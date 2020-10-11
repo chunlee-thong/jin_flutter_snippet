@@ -10,7 +10,7 @@
   "engines": {
     "vscode": "^1.28.0"
   },
-  "icon": "./assets/flutter-logo.png",
+  "icon": "assets/flutter-logo.png",
   "categories": [
     "Snippets"
   ],
