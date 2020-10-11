@@ -1,0 +1,223 @@
+{
+  "Flutter stateless widget": {
+    "prefix": "jstless",
+    "description": "Insert a StatelessWidget",
+    "body": [
+      "import 'package:flutter/material.dart';\n",
+      "class $1 extends StatelessWidget {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Container(",
+      "      $2",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+
+  "Flutter Stateful widget": {
+    "prefix": "jstful",
+    "description": "Insert a StatefullWidget",
+    "body": [
+      "import 'package:flutter/material.dart';\n",
+      "class $1 extends StatefulWidget {",
+      "  $1({Key key}) : super(key: key);",
+      "  @override",
+      "  _$1State createState() => _$1State();",
+      "}",
+      "",
+      "class _$1State extends State<$1> {",
+      "",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      body: Container(),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "Flutter Stateful widget with AnimationController": {
+    "prefix": "jstfan",
+    "description": "Insert a Stateful with AnimationController",
+    "body": [
+      "import 'package:flutter/material.dart';\n",
+      "class $1 extends StatefulWidget {",
+      "  $1({Key key}) : super(key: key);",
+      "  @override",
+      "  _$1State createState() => _$1State();",
+      "}",
+      "",
+      "class _$1State extends State<$1> with SingleTickerProviderStateMixin {",
+      "  AnimationController controller;",
+      "",
+      "  @override",
+      "  void initState() {",
+      "    super.initState();",
+      "    controller = AnimationController(vsync: this, duration: Duration(seconds: 1));",
+      "  }",
+      "",
+      "  @override",
+      "  void dispose() {",
+      "    controller.dispose();",
+      "    super.dispose();",
+      "  }",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      body: Container(),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "Flutter Stateful widget with TabController": {
+    "prefix": "jstfta",
+    "description": "Insert a Stateful with TabController",
+    "body": [
+      "import 'package:flutter/material.dart';\n",
+      "class $1 extends StatefulWidget {",
+      "  $1({Key key}) : super(key: key);",
+      "  @override",
+      "  _$1State createState() => _$1State();",
+      "}",
+      "",
+      "class _$1State extends State<$1> with SingleTickerProviderStateMixin {",
+      "  TabController tabController;",
+      "",
+      "  @override",
+      "  void initState() {",
+      "    super.initState();",
+      "    tabController = TabController(vsync: this, length: 2);",
+      "  }",
+      "",
+      "  @override",
+      "  void dispose() {",
+      "    tabController.dispose();",
+      "    super.dispose();",
+      "  }",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      body: Container(),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+  "StreamHandler": {
+    "prefix": "streamHdlr",
+    "description": "Insert a Streamhandler",
+    "body": [
+      "StreamHandler<$1>(",
+      "  stream: stream,",
+      "  loading: null,",
+      "  error: (error) => null,",
+      "  ready: ($1 data) {",
+      "    return Container();",
+      "  },",
+      ")"
+    ]
+  },
+  "FutureHandler": {
+    "prefix": "futureHdlr",
+    "description": "Insert a Futurehandler",
+    "body": [
+      "FutureHandler<$1>(",
+      "  future: future,",
+      "  loading: null,",
+      "  error: (error) => null,",
+      "  ready: ($1 data) {",
+      "    return Container();",
+      "  },",
+      ")"
+    ]
+  },
+  "JinLoadingButton": {
+    "prefix": "jloadingbutton",
+    "description": "Insert a JinLoadingButton",
+    "body": [
+      "JinLoadingButton(",
+      "  onPressed: ()async{},",
+      "  child: Text('Click'),",
+      "  textColor: Colors.black,",
+      ")"
+    ]
+  },
+  "Push Page with PageNavigator": {
+    "prefix": "jpush",
+    "description": "Push page with PageNavigator",
+    "body": ["PageNavigator.push(context, $1);"]
+  },
+  "PushReplace Page with PageNavigator": {
+    "prefix": "jpushreplace",
+    "description": "PushReplace page with PageNavigator",
+    "body": ["PageNavigator.pushReplacement(context, $1);"]
+  },
+  "PushRemove Page with PageNavigator": {
+    "prefix": "jpushremove",
+    "description": "PushRemove page with PageNavigator",
+    "body": ["PageNavigator.pushAndRemove(context, $1);"]
+  },
+  "SpaceX": {
+    "prefix": "jspx",
+    "description": "Add SpaceX",
+    "body": ["SpaceX(),"]
+  },
+  "SpaceY": {
+    "prefix": "jspy",
+    "description": "Add SpaceY",
+    "body": ["SpaceY(),"]
+  },
+  "JinConfirmation Dialog": {
+    "prefix": "jcdialog",
+    "description": "show JinConfirmationDialog",
+    "body": [
+      "JinNavigator.dialog(",
+      " JinConfirmationDialog(",
+      "  content: Text('$1'),",
+      "  onConfirm: (){},",
+      "  onCancel: (){},",
+      " ),",
+      ");"
+    ]
+  },
+  "Show simpleDialog": {
+    "prefix": "jhelpergeneraldialog",
+    "description": "Show GeneralDialog from UIHelper class",
+    "body": ["UIHelper.showGeneralMessageDialog(context, $1);"]
+  },
+  "Custom try-catch": {
+    "prefix": "jtrycatch",
+    "description": "Show custom try catch",
+    "body": ["try {", "$1", "}", "catch (exception) {", "} finally{}"]
+  },
+  "Initize BaseStream": {
+    "prefix": "jbasestream",
+    "description": "Create BaseStream",
+    "body": [
+      "BaseStream<$2> $1Controller = BaseStream();",
+      "",
+      "Future<void> fetchData() async {",
+      " $1Controller.asyncOperation((){",
+      "  return;",
+      " });",
+      "}",
+      "",
+      "@override",
+      "void initState() {",
+      "  super.initState();",
+      "  fetchData();",
+      "}",
+      "",
+      "@override",
+      "void dispose() {",
+      "  $1Controller.dispose();",
+      "  super.dispose();",
+      "}"
+    ]
+  }
+}

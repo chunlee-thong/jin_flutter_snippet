@@ -1,0 +1,21 @@
+{
+  "name": "jin_flutter_snippet",
+  "displayName": "Jin Flutter Snippet",
+  "description": "An extension for me with mostly snippet for Flutter",
+  "version": "0.0.1",
+  "publisher": "chunlee-thong",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./dart.json"
+      }
+    ]
+  }
+}
