@@ -1,9 +1,12 @@
 {
-  "name": "jin_flutter_snippet",
+  "name": "jin-flutter-snippet",
   "displayName": "Jin Flutter Snippet",
   "description": "An extension for me with mostly snippet for Flutter",
   "version": "0.0.1",
-  "publisher": "chunlee-thong",
+  "repository": {
+    "url": "https://github.com/chunlee-thong/jin_flutter_snippet"
+  },
+  "publisher": "ChunleeThong",
   "engines": {
     "vscode": "^1.28.0"
   },
