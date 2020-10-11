@@ -1,14 +1,22 @@
-# Snippet Sample
+# Jin Flutter Snippet
 
-This is the source code for [Snippet Guide](https://code.visualstudio.com/api/language-extensions/snippet-guide).
+### Avaiable Flutter Snippet
 
-## VS Code API
-
-### Contribution Points
-
-- [`contributes.snippets`](https://code.visualstudio.com/api/references/contribution-points#contributes.snippets)
-
-## Running the Sample
-
-- Run the `Run Extension` target in the Debug View
-- When you type `log` in a JavaScript file, you would see the snippet `Print to console`.
+| Snippet                | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `jstless`              | Statless Widget                                |
+| `jstful`               | StatefulWidget                                 |
+| `jstfan`               | StatefulWidget with Animation Controller       |
+| `jstfta`               | StatefulWidget with Tab Controller             |
+| `streamHdlr`           | StreamHandler                                  |
+| `futureHdlr`           | FutureHandler                                  |
+| `jloadingbutton`       | JinLoadingButton                               |
+| `jpush`                | PageNavigator push                             |
+| `jpushreplace`         | PageNavigator pushReplace                      |
+| `jpushremove`          | PageNavigator push and remove                  |
+| `jspx`                 | Add SpaceX                                     |
+| `jspy`                 | Add SpaceY                                     |
+| `jcdialog`             | Show JinConfirmationDialog                     |
+| `jhelpergeneraldialog` | Show generalMessageDialog from UIHelper class  |
+| `jtrycatch`            | Custom try catch                               |
+| `jbasestream`          | Create a BaseStream with operation and dispose |

@@ -1,8 +1,8 @@
 {
   "name": "jin-flutter-snippet",
   "displayName": "Jin Flutter Snippet",
-  "description": "An extension for me with mostly snippet for Flutter",
-  "version": "0.0.1",
+  "description": "A set of flutter snippet that i mostly use",
+  "version": "1.0.0",
   "repository": {
     "url": "https://github.com/chunlee-thong/jin_flutter_snippet"
   },
@@ -10,6 +10,7 @@
   "engines": {
     "vscode": "^1.28.0"
   },
+  "icon": "./assets/flutter-logo.png",
   "categories": [
     "Snippets"
   ],
@@ -17,8 +18,13 @@
     "snippets": [
       {
         "language": "dart",
-        "path": "./dart.json"
+        "path": "./snippets/dart.json"
       }
     ]
-  }
+  },
+  "keywords": [
+    "flutter",
+    "jin",
+    "snippet"
+  ]
 }
