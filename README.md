@@ -1,6 +1,15 @@
 # Jin Flutter Snippet
 
-### Avaiable Flutter Snippet
+### jin_widget_helper
+
+install [jin_widget_helper](https://pub.dev/packages/jin_widget_helper) from pub.dev:
+
+```dart
+dependencies:
+  jin_widget_helper: ^1.5.0
+```
+
+### Avaiable Snippet
 
 | Snippet                | Description                                    |
 | ---------------------- | ---------------------------------------------- |

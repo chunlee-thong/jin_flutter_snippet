@@ -15,6 +15,23 @@
     ]
   },
 
+  "Flutter stateless widget Scaffold": {
+    "prefix": "jstlesscf",
+    "description": "Insert a StatelessWidget with Scaffold",
+    "body": [
+      "import 'package:flutter/material.dart';\n",
+      "class $1 extends StatelessWidget {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      appBar: AppBar(title: Text('$2')),",
+      "      body: Container(),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  },
+
   "Flutter Stateful widget": {
     "prefix": "jstful",
     "description": "Insert a StatefullWidget",
@@ -32,6 +49,7 @@
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return Scaffold(",
+      "      appBar: AppBar(title: Text('$2')),",
       "      body: Container(),",
       "    );",
       "  }",
@@ -67,6 +85,7 @@
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return Scaffold(",
+      "      appBar: AppBar(title: Text('$2')),",
       "      body: Container(),",
       "    );",
       "  }",
@@ -102,6 +121,7 @@
       "  @override",
       "  Widget build(BuildContext context) {",
       "    return Scaffold(",
+      "      appBar: AppBar(title: Text('$2')),",
       "      body: Container(),",
       "    );",
       "  }",

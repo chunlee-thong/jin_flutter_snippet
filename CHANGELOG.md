@@ -1,3 +1,7 @@
+## [1.0.1] - 15 October 2020
+
+- improve snippet and package description
+
 ## [1.0.0] - 11 October 2020
 
 - ADD and IMPROVE README
