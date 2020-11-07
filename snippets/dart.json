@@ -239,5 +239,21 @@
       "  super.dispose();",
       "}"
     ]
+  },
+  "Initialize getter": {
+    "prefix": "jgetter",
+    "description": "Create a private field with getter",
+    "body": ["$1 _$2;", "$1 get $2 => _$2;"]
+  },
+  "Initialize Singleton": {
+    "prefix": "jsingleton",
+    "description": "Create a singleton class",
+    "body": [
+      "class $1 {",
+      "  $1._();",
+      "  static final $1 _instance = $1._();",
+      "  static $1 get instance => _instance;",
+      "}"
+    ]
   }
 }
