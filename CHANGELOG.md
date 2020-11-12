@@ -1,3 +1,7 @@
+## [1.0.2] - 12 November 2020
+
+- Add jgetter and jsingleton
+
 ## [1.0.1] - 15 October 2020
 
 - improve snippet and package description

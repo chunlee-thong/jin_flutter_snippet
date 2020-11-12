@@ -2,7 +2,7 @@
   "name": "jin-flutter-snippet",
   "displayName": "Jin Flutter Snippet",
   "description": "Flutter snippet for jin_widget_helper and another flutter widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/chunlee-thong/jin_flutter_snippet"
   },

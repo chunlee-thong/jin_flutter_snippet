@@ -29,3 +29,5 @@ dependencies:
 | `jhelpergeneraldialog` | Show generalMessageDialog from UIHelper class  |
 | `jtrycatch`            | Custom try catch                               |
 | `jbasestream`          | Create a BaseStream with operation and dispose |
+| `jgetter`              | Create a private field with get method         |
+| `jsingleton`           | Create a Singleton class                       |
