@@ -255,5 +255,15 @@
       "  static $1 get instance => _instance;",
       "}"
     ]
+  },
+  "TextEditingController": {
+    "prefix": "jtextcontroller",
+    "description": "Add TextEditingController",
+    "body": ["TextEditingController $1 = TextEditingController();"]
+  },
+  "Value Notifier": {
+    "prefix": "jvaluenotifier",
+    "description": "Add ValueNotifier",
+    "body": ["ValueNotifier $1 = ValueNotifier<$2>($3);"]
   }
 }

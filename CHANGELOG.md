@@ -1,3 +1,7 @@
+## [1.0.3] - 30 December 2020
+
+- Add jtextcontroller and jvaluenotifier
+
 ## [1.0.2] - 12 November 2020
 
 - Add jgetter and jsingleton

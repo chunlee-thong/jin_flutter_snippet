@@ -2,7 +2,7 @@
   "name": "jin-flutter-snippet",
   "displayName": "Jin Flutter Snippet",
   "description": "Flutter snippet for jin_widget_helper and another flutter widget",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/chunlee-thong/jin_flutter_snippet"
   },
@@ -53,11 +53,11 @@
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/node": "^12.12.0",
+    "@types/node": "^12.19.11",
     "@types/vscode": "^1.28.0",
     "@typescript-eslint/eslint-plugin": "^3.0.2",
     "@typescript-eslint/parser": "^3.0.2",
-    "eslint": "^7.1.0",
-    "typescript": "^4.0.2"
+    "eslint": "^7.16.0",
+    "typescript": "^4.1.3"
   }
 }

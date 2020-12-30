@@ -6,7 +6,7 @@ install [jin_widget_helper](https://pub.dev/packages/jin_widget_helper) from pub
 
 ```dart
 dependencies:
-  jin_widget_helper: ^1.5.0
+  jin_widget_helper: ^1.6.1
 ```
 
 ### Avaiable Snippet
